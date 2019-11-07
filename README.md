@@ -8,7 +8,7 @@ The help describes how to go about obtaining a token based on your FileMaker ID:
 
 This project is a Node.js web service that makes that whole process easy.  Host the web service internally and call it with a straightforward REST call.
 
-For a full walkthrough see: <soliant blog link>
+For a full walkthrough see: https://www.soliantconsulting.com/blog/data-api-filemaker-cloud/
 
 
 
