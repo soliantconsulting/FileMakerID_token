@@ -3,19 +3,41 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.85.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "aws-cdk": "1.85.0",
+    "esbuild": "0",
+    "install-peers": "^1.0.3",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigatewayv2-integrations": "1.85.0",
+    "@aws-cdk/aws-apigatewayv2": "1.85.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.85.0",
+    "@aws-cdk/aws-lambda": "1.85.0",
+    "@aws-cdk/core": "1.85.0",
+    "@vendia/serverless-express": "^4.0.0-rc.7",
     "amazon-cognito-identity-js": "^3.0.15",
+    "clean-css": ">=4.1.11",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "express": "~4.16.0",
     "express-validator": "^6.2.0",
+    "express": "~4.16.0",
     "http-errors": "~1.6.2",
+    "lodash": ">=4.17.19",
     "morgan": "~1.9.0",
     "node-fetch": "^2.6.1",
-    "pug": "2.0.0-beta11",
-    "lodash": ">=4.17.19",
-    "clean-css": ">=4.1.11"
+    "pug": "2.0.0-beta11"
   }
 }
