@@ -10,7 +10,7 @@ export class FileMakerID_API extends cdk.Stack {
     const handlerFn = new lambda.NodejsFunction(this, 'apihandler', {
       bundling: {
         externalModules: [''],
-        nodeModules: ['express', 'buffer', 'pug'],
+        nodeModules: ['express', 'buffer', 'pug', 'node-fetch'],
         commandHooks: {
           beforeInstall(inputDir: string, outputDir: string): string[] { return ['true'] },
           beforeBundling(inputDir: string, outputDir: string): string[] { return ['true'] },
