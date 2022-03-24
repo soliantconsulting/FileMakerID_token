@@ -1,3 +1,5 @@
+// install node-fetch version 2 otherwise the next line with throw an error
+// npm install node-fetch@2
 global.fetch = require('node-fetch');
 var express = require('express');
 var router = express.Router();
