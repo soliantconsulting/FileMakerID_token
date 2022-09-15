@@ -6,12 +6,13 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "amazon-cognito-identity-js": "^3.0.15",
-    "clean-css": ">=4.1.11",
+    "amazon-cognito-identity-js": "^5.2.10",
+    "clean-css": "^5.3.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "express-validator": "^6.2.0",
+    "dotenv": "^16.0.2",
+    "express": "~4.18.0",
+    "express-validator": "^6.14.2",
     "http-errors": "~1.6.2",
     "lodash": ">=4.17.21",
     "morgan": "~1.9.0",
